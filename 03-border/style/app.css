@@ -1,0 +1,15 @@
+h1{
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: red; */
+
+    /* Border Shorthand */
+    border: 2px solid red;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color:red;
+    border-radius: 250px;
+}
