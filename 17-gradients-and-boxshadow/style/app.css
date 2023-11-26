@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Vazir light";
+}
+
+.container{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapper{
+    width: 400px;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    border: 1px solid grey;
+    background-image: url(../images/creative-css3-tutorials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.cover{
+    width: 400px;
+    height: 230px;
+    margin: 24px auto;
+    background-image: linear-gradient(to right bottom, #1E88E5, #81C784);
+}
+
+.gradient{
+    width: 400px;
+    height: 230px;
+    margin: 24px auto;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 1)), url(../images/What-is-CSS3.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box-shadow1{
+    width: 400px;
+    height: 230px;
+    margin: 24px auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow2{
+    width: 400px;
+    height: 230px;
+    margin: 24px auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2) inset;
+}
