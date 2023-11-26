@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 900px;
+    margin: 24px auto;
+}
+
+h4{
+    margin-top: 24px;
+    color: black;
+}
+
+h5{
+    color: white;
+    text-align: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #D50000;
+    transition: all 350ms ease-in-out;
+}
+
+.box1:hover{
+    transform: rotate(45deg);
+}
+
+.box2:hover{
+    transform: scale(1.2);
+}
+
+.box3:hover{
+    transform: skew(10deg);
+}
+
+.box4:hover{
+    transform: translateX(20px);
+}
+
+.box5:hover{
+    transform: translateY(20px);
+}
