@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 900px;
+    margin: 24px auto;
+}
+
+.box{
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    box-shadow: 1px 1px 20px -2px #78909C;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
