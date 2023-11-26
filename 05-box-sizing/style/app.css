@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+div{
+    width: 400px;
+    background-color: green;
+    border: 5px solid yellow;
+    padding: 5px;
+}
+
+p{
+    font-size: 3rem;
+}
+
+span{
+    font-size: 0.5em; 
+}
