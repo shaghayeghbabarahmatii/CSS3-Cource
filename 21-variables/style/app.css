@@ -1,0 +1,32 @@
+:root{
+    --prmary-color: #3949AB;
+    --shadow-light: 2px 2px 16px -3px #03A9F4;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.container{
+    width: 900px;
+    margin: 32px auto;
+}
+
+h1,
+p{
+    text-align: center;
+    color: var(--prmary-color);
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: var(--prmary-color);
+    box-shadow: var(--shadow-light);
+}
