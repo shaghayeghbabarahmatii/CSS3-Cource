@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Vazir Light";
+    src:
+    url(../fonts/ttf/Vazirmatn-Light.ttf) format(truetype),
+    url(../fonts/woff2/Vazirmatn-Light.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Vazir Bold";
+    src:
+    url(../fonts/ttf/Vazirmatn-Bold.ttf) format(ttf),
+    url(../fonts/woff2/Vazirmatn-Bold.woff2) format(woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Vazir light";
+    color: #fff;
+}
+
+:root{
+    background-color: black;
+}
+html{
+    background-color: #fff;
+}
+
+.container{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+}
+
+.checkbox:checked + .alert{
+    display: block;
+}
+
+.alert{
+    display: none;
+}
+
+.second__div{
+    margin-top: 30px;
+}
+
+li:nth-child(even){
+    color: yellow;
+}
+
+li:nth-child(odd){
+    color: coral;
+}
+
+li:first-child{
+    color: red
+}
+
+li:last-child{
+    color: cyan;
+}
+
+li:nth-child(4){
+    color: lightseagreen;
+}
+
+.third{
+    margin-top: 30px;
+}
+
+.list .item:not(.item-except){
+    color: coral;
+}
+
+.price-box{
+    margin-top: 30px;
+    position: relative;
+}
+
+.price::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
