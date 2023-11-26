@@ -1,0 +1,45 @@
+/* session 1 */
+
+p{
+    color: blue;
+}
+
+#pt1{
+    color: red;
+}
+
+.caption{
+    color: green;
+}
+
+*{
+    color: yellowgreen;
+}
+
+/* session 2 */
+
+
+body{
+    font-family: tahoma;
+    font-size: 24px;
+}
+
+/* استایل دهی تو در تو */
+.main .content-1{
+    background-color: brown;
+}
+
+/* در کلاس main فرزند اول div استایل دهی شود */
+.main > div{
+    border: 1px solid red;
+}
+
+/* اگر بعد از تگ h1 بلافاصله تگ p وجود داشته باشد style دهی میشود */
+h1 + p{
+    font-weight: bold;
+}
+
+/* تمامی تگ های p که بعد از تگ h1 وجود دارند را style دهی میکند*/
+h1 ~ p{
+    background-color: aqua;
+}
