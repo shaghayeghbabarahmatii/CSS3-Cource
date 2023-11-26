@@ -1,2 +1,2 @@
-# CSS3-Cource
+# CSS3-Course
 A repository to apply what I've learned about CSS3
