@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Vazir Light";
+    src:
+    url(../fonts/ttf/Vazirmatn-Light.ttf) format(truetype),
+    url(../fonts/woff2/Vazirmatn-Light.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Vazir Bold";
+    src:
+    url(../fonts/ttf/Vazirmatn-Bold.ttf) format(ttf),
+    url(../fonts/woff2/Vazirmatn-Bold.woff2) format(woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Vazir light";
+    background-color: #37474F;
+    height: 1800px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    height: 150px;
+    margin-bottom: 24px;
+}
+
+.box1{
+    background-color: #AD1457;
+    position: fixed;
+    width: 50%;
+    top: 0;
+}
+
+.box2{
+    background-color: #1565C0;
+    position: relative;
+    right: 100px;
+    /* left: 25px; */
+    /* top: 25px; */
+    /* bottom: 25px; */
+}
+
+.box2-child1{
+    width: 100px;
+    height: 100px;
+    background-color: #FB8C00;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.box3{
+    background-color: #558B2F;
+    position: sticky;
+    top: 30px;
+}
+
+.box4{
+    background-color: #D84315;
+}
+
+.box5{
+    background-color: #5D4037;
+}
