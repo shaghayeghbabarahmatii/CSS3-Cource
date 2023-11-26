@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Vazir Light";
+    src:
+    url(../fonts/ttf/Vazirmatn-Light.ttf) format(truetype),
+    url(../fonts/woff2/Vazirmatn-Light.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Vazir Bold";
+    src:
+    url(../fonts/ttf/Vazirmatn-Bold.ttf) format(ttf),
+    url(../fonts/woff2/Vazirmatn-Bold.woff2) format(woff2);
+}
+
+:root{
+    --bg-color: #3949AB;
+    --animation-color: #1E88E5;
+    --shadow-light: 2px 2px 16px -3px #03A9F4;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.container{
+    width: 900px;
+    height: 500px;
+    margin: 32px auto;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: var(--animation-color);
+    margin: 100px auto;
+
+    animation-name: circle-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes circle-animation{
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: var(--animation-color);
+    margin: 100px auto;
+
+    animation-name: square-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes square-animation{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-around{
+    width: 80px;
+    height: 80px;
+    background-color: var(--animation-color);
+    margin: 120px auto;
+    border-radius: 100%;
+
+    animation-name: rotate-around-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate-around-animation{
+    0% {
+        transform: translate(-12.5px, -12.5px);
+    }
+
+    25%{
+        transform: translate(12.5px ,-12.5px);
+    }
+
+    50%{
+        transform: translate(12.5px, 12.5px);
+    }
+
+    75%{
+        transform: translate(-12.5px, 12.5px);
+    }
+
+    100% {
+        transform: translate(-12.5px, -12.5px);
+    }
+}
