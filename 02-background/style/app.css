@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+.bgd{
+    width: 1200px;
+    height: 1200px;
+
+    background-image: url(../images/pexels-dominika-roseclay-912410.jpg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+
+
+
+    /* background: url("../images/pexels-dominika-roseclay-912410.jpg") no-repeat fixed center; */
+}
